@@ -56,3 +56,21 @@ var Pres = ["George Washington",
 for(g=0; g<Pres.length; g++) {
   console.log("President #" + (g+1) +" "+ Pres[g])
 }
+
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for(var prop in antSpecies) {
+  console.log(prop)
+}
